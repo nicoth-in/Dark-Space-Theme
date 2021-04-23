@@ -1,0 +1,65 @@
+{
+  "manifest_version": 2,
+  "version": "1.1.0",
+
+  "default_locale": "en",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "author": "__MSG_extensionAuthor__",
+
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "{22b0eca1-8c02-4c0d-a5d7-6604ddd9836e}",
+        "strict_min_version": "89.0"
+      }
+  },
+
+  "theme": {
+    "images": {
+      "additional_backgrounds": ["img/background.gif"]
+    },
+    "properties": {
+      "additional_backgrounds_tiling": ["repeat-x"]
+    },
+    "colors": {
+      "button_background_active": "#333333",
+      "button_background_hover": "#282828",
+      "bookmark_text": "rgba(255, 255, 255, 0.8)",
+      "frame": "#000000",
+      "frame_inactive": "#000000",
+      "icons": "rgba(255, 255, 255, 0.8)",
+      "icons_attention": "#9400ff",
+      "ntp_background": "#000000",
+      "ntp_text": "rgba(255, 255, 255, 0.8)",
+      "popup": "#101010",
+      "popup_border": "#303030",
+      "popup_highlight": "#303030",
+      "popup_highlight_text": "white",
+      "popup_text": "rgba(255, 255, 255, 0.8)",
+      "sidebar": "#101010",
+      "sidebar_border": "#303030",
+      "sidebar_highlight": "#303030",
+      "sidebar_highlight_text": "white",
+      "sidebar_text": "rgba(255, 255, 255, 0.8)",
+      "tab_background_separator": "transparent",
+      "tab_background_text": "#cccccc",
+      "tab_line": "transparent",
+      "tab_loading": "white",
+      "tab_selected": "rgba(255, 255, 255, 0.04)",
+      "tab_text": "#ffffff",
+      "toolbar": "rgba(18, 18, 18, 0.8)",
+      "toolbar_bottom_separator": "#101010",
+      "toolbar_field": "#000000",
+      "toolbar_field_border": "transparent",
+      "toolbar_field_border_focus": "#303030",
+      "toolbar_field_focus": "#111111",
+      "toolbar_field_highlight": "#333333",
+      "toolbar_field_highlight_text": "white",
+      "toolbar_field_separator": "#101010",
+      "toolbar_field_text": "rgba(255, 255, 255, 0.8)",
+      "toolbar_field_text_focus": "white",
+      "toolbar_top_separator": "rgba(18, 18, 18, 0.0)",
+      "toolbar_vertical_separator": "rgba(255, 255, 255, 0.06)"
+    }
+  }
+}
