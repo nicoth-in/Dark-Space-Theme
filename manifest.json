@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.1.0",
+  "version": "1.1.1",
 
   "default_locale": "en",
   "name": "__MSG_extensionName__",
@@ -42,10 +42,9 @@
       "sidebar_highlight_text": "white",
       "sidebar_text": "rgba(255, 255, 255, 0.8)",
       "tab_background_separator": "transparent",
-      "tab_background_text": "#cccccc",
-      "tab_line": "transparent",
+      "tab_background_text": "#aaaaaa",
       "tab_loading": "white",
-      "tab_selected": "rgba(255, 255, 255, 0.04)",
+      "tab_selected": "rgba(200, 200, 200, 0.07)",
       "tab_text": "#ffffff",
       "toolbar": "rgba(18, 18, 18, 0.8)",
       "toolbar_bottom_separator": "#101010",
